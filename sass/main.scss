@@ -1,0 +1,15 @@
+@import "abstracts/variables";
+
+@import "base/reset";
+@import "base/typography";
+
+@import "components/buscador";
+@import "components/buttons";
+@import "components/tags";
+
+@import "layout/footer";
+@import "layout/form";
+@import "layout/_grid";
+@import "layout/header";
+@import "layout/main";
+@import "layout/sidebar";

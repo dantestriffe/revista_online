@@ -1,0 +1,49 @@
+.contenedor {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+
+.contenido {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.listad-noticias {
+    width: 100%;
+}
+
+.noticia {
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cuerpo img {
+    width: 100%;
+    height: auto;
+}
+
+.cuerpo p {
+    padding: 5px 10px;
+}
+
+@media only screen and (max-width: 576px) {
+        .contenedor{
+            width: 100%;
+        }
+
+        #asideocultar{
+            display: none;
+        }
+        
+        .cuerpo img{
+            height: 180px;
+        }
+}
+
+@media only screen and (max-width: 992px){
+    .contenedor{
+        width: 100%;
+    }
+}
